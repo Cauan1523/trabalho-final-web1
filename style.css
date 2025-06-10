@@ -1,0 +1,141 @@
+/*estrutura do css*/
+/*especificações e cores de todas as paginas doo trabalho*/ 
+body{ 
+padding:0;
+margin:0;
+background:linear-gradient(#5d9dd4,#FFFDE4);
+
+}
+
+/*cor da palvra auto escola*/
+h1{
+    color: yellow;
+  }
+
+/*cores e fonte da tabela*/
+tr{
+font-family:verdana;
+color:black;
+border-color:white;
+background-color: #f7f76b	;
+border-radius:5px;
+}
+
+/* cores do xadrez da tabela*/
+.bloco{
+  background-color: #5d9dd4;
+}
+
+
+
+/*cores e especificações do roda pé*/
+footer{
+    background-color: #000080;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 40px;
+    position: bottom;
+  }
+
+/* cores e especificações do cabeçalho*/
+header {
+    color:yellow;
+    padding: 20px;
+    text-align: center;
+  }
+
+ /* especificações e cores dos links*/
+  nav {
+    background-color: #fdcf00;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  /*especificações e cores de outra parte dos links*/
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /*cores dos butões*/
+  button{
+    background-color: #03038a;
+    color: white;
+  }
+
+  /* posições e bordas das imagens*/
+img{
+  border-radius: 20px;
+    width: 450px;
+    height: 400px;    
+}
+
+/*cores das palavras qu estao em h3*/ 
+h3{
+    color: #0011fdea;
+}
+
+/*cores das palavras em h2*/
+h2{
+    color: yellow;
+}
+
+/*cor das letras dos links de redirecionamento das localidades das unidades da auto ecola*/
+a{
+  color: black;
+}
+
+/*borda e tamanhod dos links de contatos*/ 
+.contato{
+border-radius: 50%;
+width: 6%;
+height: 12%;
+}
+
+/*cor de fundo dos blocos da tebela de horarios*/
+.bloco{
+  background-color: #5d9dd4;
+
+}
+
+/*responsividade das imagens maiores*/
+@media screen and (max-width:1025px){
+    img{
+     height:400px;
+     width: 350px;   
+
+     } 
+
+}
+
+/*responsividade das imagens maiores*/
+@media screen and (min-width:640px){
+    img{
+     height:400px;
+     width: 350px;   
+
+     } 
+
+}
+
+/*responsividade dos links de contato*/
+@media screen and(max-height:1025px){
+.contato{
+    height:400px;
+ width:350px;
+}
+}
+
+/*responsividade dos links de contato*/
+@media screen and(min-height:640px){
+.contato{
+    height:400px;
+ width:350px;
+}
+}
+
+
+/*fim do css*/
